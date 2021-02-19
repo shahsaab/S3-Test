@@ -22,7 +22,7 @@ namespace S3_Test
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            client = new AmazonS3Client("AKIAXVLH3MEHVIH7SO5A", "rsHMmyuDb2sFn/L8FEHG9f4zVDttgZzQo2fEOiEp", bucketRegion);
+            client = new AmazonS3Client("", "", bucketRegion);
             ListAllObjectsInBucket();
         }
 
